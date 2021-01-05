@@ -1,0 +1,12 @@
+region                      = "us-east-2"
+node_count                  = 1
+vpc_id                      = "vpc-07b5701b02dd17230"
+subnet_id                   = ["subnet-0f0d71124d35b640a"]
+ami_id                      = "ami-03549e4311aacf5a0"
+instance_type               = "t3.xlarge"
+key_pair                    = "dev-idm-report-pem"
+associate_public_ip_address = "false"
+monitoring                  = "true"
+storage                     = "100"
+source_security_group_id    = "sg-0af8fa6b796c71e00"
+vpc_cidr_block              = "10.197.0.0/16"
